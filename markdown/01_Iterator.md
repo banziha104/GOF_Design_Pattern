@@ -1,8 +1,8 @@
 # Iterator 패턴 (반복자 패턴)
 
-> 순서대로 지정하면서 전체를 실행
+> 순서대로 지정해 처리
 
-- 필요 클래스 및 인터페이스
+### 필요 클래스 및 인터페이스
 
 | 이름              | 설명                                                                                                  |
 |-------------------|-------------------------------------------------------------------------------------------------------|
@@ -12,7 +12,7 @@
 | ConcreteAggregate | Aggregate 역할을 실제로 구현하는 일을 함.                                                             |
 
 
-- 예제 클래스 
+### 예제 클래스 
 
 | 이름              | 해설                                                           | 필요 클래스 및 인터페이스 역할 |
 |-------------------|----------------------------------------------------------------|--------------------------------|
@@ -22,6 +22,8 @@
 | BookShelfIterator | 서가를 검색하는 클래스                                         | ConcreteIterator               |
 | Book              | 책을나타내는 인터페이스                                        |                                |
 | Main              | 실행하는 클래스                                                |                                |
+
+<br>
 
 - Aggreate 인터페이스 : 집약하는 클래스로 Iterator를 모아주는 역할을함
 
@@ -33,6 +35,8 @@ public interface Aggrerate { // Iterator를 모으는 클래스
 
 ```
 
+<br>
+
 - Iterator 인터페이스 : 하나씩 나열하면서 루프 변수와 같은 역할을 수행함 
 
 ```java
@@ -43,6 +47,8 @@ public interface Iterator {
 }
 
 ```
+
+<br>
 
 - Book 클래스 : 반환되는 모델역할을 담당함
 
@@ -62,6 +68,7 @@ public class Book {
 }
 ```
 
+<br>
 
 - BookShelf 클래스 : 직접적으로 Aggregate를 구현함으로써, 반복할 준비를 하는 객체 
 
@@ -95,6 +102,8 @@ public class BookShelf implements Aggrerate {
 
 ```
 
+<br>
+
 - BookShelfIterator 클래스 : Iterator를 구현받아 반복자 자체를 구현하는 객체
 
 ```java
@@ -123,6 +132,8 @@ public class BookShelfIterator implements Iterator {
 }
 
 ```
+
+<br>
 
 - Main 클래스 
 
