@@ -39,6 +39,8 @@ public abstract class Product {
 
 ``` 
 
+<br>
+
 - Factory : 하위 클래스에 생성과 등록을 위임함
 
 ```java
@@ -55,6 +57,8 @@ public abstract class Factory {
 }
 
 ``` 
+
+<br>
 
 - IDCard : 제품을 구현하는 클래스 
 
@@ -79,6 +83,7 @@ public class IDCard extends Product {
 
 ``` 
 
+<br>
 
 - IDCardFactory : 제품을 만들어내는 클래스
 
@@ -103,6 +108,8 @@ public class IDCardFactory extends Factory {
 }
 
 ``` 
+
+<br>
 
 - Main : 실행
 
