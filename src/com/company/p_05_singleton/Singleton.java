@@ -1,6 +1,6 @@
 package com.company.p_05_singleton;
 
-public class Singleton {
+public class Singleton{
     private static Singleton ourInstance = new Singleton();
 
     public static Singleton getInstance() {
