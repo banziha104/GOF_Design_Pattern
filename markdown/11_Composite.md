@@ -6,6 +6,12 @@
 
 - ### 필요 클래스
 
+| 이름      | 해설                                                               | 대응클래스 |
+|-----------|--------------------------------------------------------------------|------------|
+| Leaf      | 내용물을 표시하는 역할, 다른 것을 넣을 순 없음                     | File       |
+| Composite | 그릇을 나타내는 역할로 Leaf 역할이나 Composite 역할을 넣을 수 있음 | Directory  |
+| Component | Leaf와 Composite역할을 동일시하는 역할을 함                        | Entry      |
+| Clienet   | 패턴의 사용자                                                      | Main       |
 
 <br>
 
@@ -13,15 +19,16 @@
 
 | 이름                   | 해설                                                 | 대응 클래스 |
 |------------------------|------------------------------------------------------|-------------|
-| Entry                  | File과 Directory를 동일시하는 추상 클래스            |             |
-| File                   | 파일을 나타내는 클래스                               |             |
-| Directory              | 디렉터리를 나타내는 클래스                           |             |
+| Entry                  | File과 Directory를 동일시하는 추상 클래스            | Component            |
+| File                   | 파일을 나타내는 클래스                               | Leaf            |
+| Directory              | 디렉터리를 나타내는 클래스                           | Composite            |
 | FireTreatmentException | 파일에 Entry를 추가하려고 할 때 발생하는 예외 클래스 |             |
-| Main                   | 동작테스트용                                         |             |
+| Main                   | 동작테스트용                                         | Client            |
 
 <br>
 
 - Entry : 컴포넌트 역할로, 동일시 하는 역할을 수행
+
 
 ```kotlin
 abstract class Entry{
