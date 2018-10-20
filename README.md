@@ -33,4 +33,28 @@
 
 - ### [Composite, 그릇과 내용물 동일하게 하기](https://github.com/banziha104/GOF_Design_Pattern/blob/master/markdown/11_Composite.md)
 
-- ### 
+- ### [Decorator, 장식과 내용물 동일하게 하기](https://github.com/banziha104/GOF_Design_Pattern/blob/master/markdown/12_Decorator.md)
+
+
+## 구조를 돌아다니기 
+
+Visitor , COF 
+
+## 단순화하기
+
+Facade , Mediator 
+### 상태 관리
+
+Obseraver
+memento
+State
+
+## 낭비 없애기 
+Flyweght
+Proxy
+
+## 클래스로 표현하기
+
+Command, Interpreter
+
+
