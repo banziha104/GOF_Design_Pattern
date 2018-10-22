@@ -40,8 +40,9 @@
 
 - ### [Vistor, 데이터 구조 돌아다니기](https://github.com/banziha104/GOF_Design_Pattern/blob/master/markdown/13_Visitor.md)
 
+- ### [Chain of responsibility, 책임 떠넘기기](https://github.com/banziha104/GOF_Design_Pattern/blob/master/markdown/14_Chain_Of_Responsibility.md)
 
-Visitor , COF 
+### 
 
 ## 단순화하기
 
