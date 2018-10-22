@@ -22,7 +22,7 @@ abstract class Support(val name: String) {
         return next
     }
 
-    fun support(trouble: Trouble) {
+    fun support(trouble: Trouble) { // 실제 처리가 이루어짐
         if (resolve(trouble)) {
             done(trouble)
         } else if (next != null) {
