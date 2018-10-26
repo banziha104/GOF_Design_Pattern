@@ -42,15 +42,15 @@
 
 - ### [Chain of responsibility, 책임 떠넘기기](https://github.com/banziha104/GOF_Design_Pattern/blob/master/markdown/14_Chain_Of_Responsibility.md)
 
-### 
 
 ## 단순화하기
 
 Facade , Mediator 
+
 ### 상태 관리
 
 Obseraver
-memento
+Memento
 State
 
 ## 낭비 없애기 
