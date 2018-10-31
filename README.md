@@ -45,20 +45,29 @@
 
 ## 단순화하기
 
-Facade , Mediator 
+- ### [Facade, 처리하는 창구 만들기](https://github.com/banziha104/GOF_Design_Pattern/blob/master/markdown/15_Facade.md)
+
+- ### [Mediator, 책임 떠넘기기](https://github.com/banziha104/GOF_Design_Pattern/blob/master/markdown/16_Mediator.md)
+
 
 ### 상태 관리
 
-Obseraver
-Memento
-State
+- ### [Observer , 상태 관찰하기](https://github.com/banziha104/GOF_Design_Pattern/blob/master/markdown/17_Observer.md)
+
+- ### [Memento, 상태 저장](https://github.com/banziha104/GOF_Design_Pattern/blob/master/markdown/18_Memento.md)
+
+- ### [State, 상태 관리](https://github.com/banziha104/GOF_Design_Pattern/blob/master/markdown/19_State.md)
 
 ## 낭비 없애기 
-Flyweght
-Proxy
+
+- ### [Flyweight, 책임 떠넘기기](https://github.com/banziha104/GOF_Design_Pattern/blob/master/markdown/20_Flyweight.md)
+
+- ### [Proxy, 책임 떠넘기기](https://github.com/banziha104/GOF_Design_Pattern/blob/master/markdown/21_Proxy.md)
 
 ## 클래스로 표현하기
 
-Command, Interpreter
+- ### [Command, 명령을 커맨드로 표현하기](https://github.com/banziha104/GOF_Design_Pattern/blob/master/markdown/22_Command.md)
+
+- ### Interpreter
 
 
